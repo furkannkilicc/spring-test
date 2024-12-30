@@ -14,3 +14,6 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 #İmage oluştur
 #docker build -t furkantest-app .
+
+#run it detached    
+#docker run -d -p 8081:8081 furkantest-app
