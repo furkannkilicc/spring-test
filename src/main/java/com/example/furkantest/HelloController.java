@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Selam, Furkan! Bu uygulama Docker üzerinde çalışıyor. test2 nameconflict";
+        return "Selam, Furkan! Bu uygulama Docker üzerinde çalışıyor. WEBHOOK TEST";
     }
 }
