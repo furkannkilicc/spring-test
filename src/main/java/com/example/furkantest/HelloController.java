@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Selam, Furkan! Bu uygulama Docker üzerinde çalışıyor. Docker in docker2";
+        return "Selam, Furkan! Bu uygulama Docker üzerinde çalışıyor. Docker in docker - 3";
     }
 }
